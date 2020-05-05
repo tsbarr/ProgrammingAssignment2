@@ -31,8 +31,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function that returns the inverse of the matrix created using the function
-## makeCacheMatrix(). It first checks if it was previously calculated, and gets 
+## (2) Function that returns the inverse of the matrix that was set
+## using makeCacheMatrix(). 
+## It first checks if it was previously calculated, and gets 
 ## the result from cache if it was. If it wasn't, it calculates it, 
 ## sets the result to cache and returns the result.
 
