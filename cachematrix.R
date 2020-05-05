@@ -11,7 +11,23 @@
 ## get_inverse = get the inverse from cache if previously calculated.
 
 makeCacheMatrix <- function(x = matrix()) {
-
+    inv <- NULL
+    set_matrix <- function(y) {
+        browser()
+        x   <<- y
+        inv <<- NULL
+    }
+    get_matrix <- function() x
+    set_inverse <- function(inverse) {
+        inv <<- inverse
+    }
+    get_inverse <- function() inv
+    list(
+        set_matrix  = set_matrix,
+        get_matrix  = get_matrix,
+        set_inverse = set_inverse,
+        get_inverse = get_inverse
+        )
 }
 
 
