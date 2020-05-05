@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+# These functions calculate the inverse of a matrix using the function solve(),
+# storing the result in cache, so the calculation doesn't have to be repeated.
 
 ## Write a short comment describing this function
 
