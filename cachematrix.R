@@ -13,7 +13,6 @@
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set_matrix <- function(y) {
-        browser()
         x   <<- y
         inv <<- NULL
     }
